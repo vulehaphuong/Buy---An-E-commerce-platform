@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+@layer components {
+  .input-box {
+    @apply bg-white text-slate-900 rounded-xl p-2 outline-none focus:ring-1;
+  }
+
+  .basic-hyperlink {
+    @apply text-slate-600 hover:text-slate-800 transition-colors duration-200 cursor-pointer;
+  }
+}
